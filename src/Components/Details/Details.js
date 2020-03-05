@@ -54,7 +54,7 @@ class ConnectedDetails extends Component {
     this.isCompMounted = true;
     this.fetchProductUsingID(this.props.match.params.id);
   }
- 
+
   componentWillUnmount() {
     this.isCompMounted = false;
   }
